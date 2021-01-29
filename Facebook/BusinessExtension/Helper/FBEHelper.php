@@ -282,7 +282,7 @@ class FBEHelper extends AbstractHelper
         }
         $store_id = $this->_storeManager->getStore()->getId();
         $this->log("Store id---" . $store_id);
-        return uniqid('fbe_magento_' . $store_id . '_');
+        return uniqid('marketplace_fbe_magento_' . $store_id . '_');
     }
 
     public function getStoreName()
